@@ -22,7 +22,7 @@ class GoL {
       for (h <- 0 to y) {
         val k = new Point(i, h)
         val r = new Random()
-        if (r.nextDouble() > 0.85) {
+        if (r.nextDouble() > 0.9) {
           val v = "ALIVE"
           setState(k.point, v, g)
         } else {
@@ -62,6 +62,8 @@ class GoL {
       } else {
         if (neighbours.count(_ == "ALIVE") == 3) {
           setState(p.point, "ALIVE", newGrid)
+        } else {
+          setState(p.point, "DEAD", newGrid)
         }
       }
     }
@@ -72,7 +74,6 @@ class GoL {
 
   def setState(k: (Int,Int), v: String, g: mutable.HashMap[(Int, Int), String]) {
     if (g.contains(k)) {
-      g.remove(k)
       g += k -> v
     } else {
       g += k -> v

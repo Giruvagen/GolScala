@@ -19,26 +19,28 @@ object GoLApp extends JFXApp {
   stage = new PrimaryStage {
 
     title = "Game of Life"
-    height = spaces * cellsize
-    width = spaces * cellsize
+    height = size
+    width = size
 
     scene = new Scene {
 
       content = new AnchorPane {
-        pickOnBounds = false
         var started = false
-        var time = AnimationTimer { t =>
+        val time = AnimationTimer { t =>
           children = List(
             new GridPane {
               for ((k, v) <- game.grid) {
                 if (v == "ALIVE") {
                   val cell = Rect(k._1, k._2, cellsize, v)
                   add(cell, k._1, k._2)
+                } else if (v == "DEAD") {
+                  val cell = Rect(k._1, k._2, cellsize, v)
+                  add(cell, k._1, k._2)
                 }
               }
             })
           game.tick()
-          Thread.sleep(1000)
+          Thread.sleep(500)
           started = true
         }
         time.start()
@@ -51,7 +53,7 @@ object GoLApp extends JFXApp {
 
 case class Rect(xp: Int, yp: Int, size: Int, state: String) extends Rectangle {
 
-  val CellFill: Color = if (state == "ALIVE") Blue else GhostWhite
+  val CellFill: Color = if (state == "ALIVE") Blue else Black
   width = size
   height = size
   fill = CellFill

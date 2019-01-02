@@ -4,7 +4,7 @@
 		module="golscala$sources"
 		revision="0.1"
 		status="integration"
-		publication="20181231180014"
+		publication="20190102100909"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

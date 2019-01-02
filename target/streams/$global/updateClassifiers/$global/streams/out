@@ -647,20 +647,20 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalafx#scalafx_2.12;8.0.144-R12!scalafx_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 582ms :: artifacts dl 12ms
-[debug] 	report for default#golscala$sources;0.1 compile produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-compile.xml
-[debug] 	report for default#golscala$sources;0.1 runtime produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-runtime.xml
-[debug] 	report for default#golscala$sources;0.1 test produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-test.xml
-[debug] 	report for default#golscala$sources;0.1 provided produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-provided.xml
-[debug] 	report for default#golscala$sources;0.1 optional produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-optional.xml
-[debug] 	report for default#golscala$sources;0.1 compile-internal produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-compile-internal.xml
-[debug] 	report for default#golscala$sources;0.1 runtime-internal produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-runtime-internal.xml
-[debug] 	report for default#golscala$sources;0.1 test-internal produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-test-internal.xml
-[debug] 	report for default#golscala$sources;0.1 plugin produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-plugin.xml
-[debug] 	report for default#golscala$sources;0.1 pom produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-pom.xml
-[debug] 	report for default#golscala$sources;0.1 scala-tool produced in C:\Users\gilga\Documents\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-scala-tool.xml
-[debug] 	resolve done (582ms resolve - 12ms download)
+[debug] :: resolution report :: resolve 21ms :: artifacts dl 4ms
+[debug] 	report for default#golscala$sources;0.1 compile produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-compile.xml
+[debug] 	report for default#golscala$sources;0.1 runtime produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-runtime.xml
+[debug] 	report for default#golscala$sources;0.1 test produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-test.xml
+[debug] 	report for default#golscala$sources;0.1 provided produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-provided.xml
+[debug] 	report for default#golscala$sources;0.1 optional produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-optional.xml
+[debug] 	report for default#golscala$sources;0.1 compile-internal produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-compile-internal.xml
+[debug] 	report for default#golscala$sources;0.1 runtime-internal produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-runtime-internal.xml
+[debug] 	report for default#golscala$sources;0.1 test-internal produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-test-internal.xml
+[debug] 	report for default#golscala$sources;0.1 plugin produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-plugin.xml
+[debug] 	report for default#golscala$sources;0.1 pom produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-pom.xml
+[debug] 	report for default#golscala$sources;0.1 scala-tool produced in C:\Users\Francis O'Brien\Documents\GitHub\GolScala\target\scala-2.12\resolution-cache\reports\default-golscala$sources-scala-tool.xml
+[debug] 	resolve done (21ms resolve - 4ms download)

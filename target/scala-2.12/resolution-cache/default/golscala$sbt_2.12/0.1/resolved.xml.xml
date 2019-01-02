@@ -4,7 +4,7 @@
 		module="golscala$sbt_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20181231175959"
+		publication="20190102100907"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
